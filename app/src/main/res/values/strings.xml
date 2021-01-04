@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Aplikacja mgr Java</string>
+    <string name="ip">
+        <!--http://[2a02:a315:543d:9a80:2418:c54c:b395:cb0c]:8081-->
+        http://192.168.1.107:8081
+    </string>
+    <string name="jezyk">
+        java
+    </string>
+    <string name="action_settings">Settings</string>
+</resources>

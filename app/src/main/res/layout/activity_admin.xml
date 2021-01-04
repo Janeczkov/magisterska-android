@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/zalogowanyt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="22dp"
+        android:gravity="top|center_horizontal"
+        android:text="Przegląd statystyk"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_weight="2"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/serwersb"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/zalogowanyt"
+            android:layout_alignParentStart="true"
+            android:layout_weight="1"
+            android:text="Statystyki serwera" />
+
+        <Button
+            android:id="@+id/usersb"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/pliksb"
+            android:layout_alignParentStart="true"
+            android:layout_weight="1"
+            android:text="Użytkownik" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="22dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/admint1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_weight="1"
+            android:gravity="bottom|center_horizontal"
+            android:text="Opcje dodatkowe"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/materialyb"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/dodajb"
+            android:layout_alignParentStart="true"
+            android:layout_weight="1"
+            android:text="Przęgladaj materiały"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/dodajb"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/usersb"
+            android:layout_alignParentStart="true"
+            android:layout_weight="1"
+            android:text="Dodaj własny materiał" />
+
+        <Button
+            android:id="@+id/uzytkownicyb"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/materialyb"
+            android:layout_alignParentStart="true"
+            android:layout_weight="1"
+            android:text="Przeglądaj użytkowników" />
+    </LinearLayout>
+
+</LinearLayout>
